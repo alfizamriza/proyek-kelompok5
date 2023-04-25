@@ -63,7 +63,7 @@ int main(int argc, char *argv[])
 
     // untuk memasukan password ke dalam file bin
     /**FILE *fpw = fopen("database/login.bin", "wb");
-    char login[20] = "Alfi@Contoh";
+    char login[20] = "klp5@lima";
 
     fwrite(login, sizeof(char), sizeof(login) / sizeof(char), fpw);
 
