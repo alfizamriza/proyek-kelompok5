@@ -9,14 +9,24 @@ void play_game()
         "Siapa presiden indonesia ketiga?\nA. BJ. Habibi\nB. Soekarno\nC. Joko Widodo\nD. Abdurrahman Wahid\n",
         "Apa singkatan dari MPR?\nA. Majelis Perwakilan Rakyat\nB. Majelis Permusyawaratan Rakyat\nC. Majelis Perhimpunan Rakyat\nD. Majelis Perserikatan Rakyat\n",
         "Pada tanggal berapakah Hari Lahir Pancasila diperingati?\nA. 17 Agustus\nB. 1 Maret\nC. 1 Juni\nD. 1 Desember\n",
-        "Tanah yang baik untuk pertanian adalah… \nA. Humus\nB. Pasir\nC. Liat\nD. Cadas\n"};
+        "Tanah yang baik untuk pertanian adalah… \nA. Humus\nB. Pasir\nC. Liat\nD. Cadas\n",
+        "Siapa pencipta lagu Indonesia Raya?\nA. W.R.Supratman\nB. Puan Maharani\nC. Mega Wati\nD. Ma'ruf Amin\n",
+        "Berapa jumlah kabupaten di Aceh?\nA. 28\nB. 24\nC. 23\nD. 18\n",
+        "Apa makanan khas Aceh?\nA. Rendang\nB. Sop ayam\nC. Gule pliek\nD. Sambal terasi\n",
+        "Apa makanan sapi?\nA. Daging\nB. Rumput\nC. Ikan\nD. Susu\n",
+        "Hewan apa yang hidup di air?\nA. Kecoak\nB. Ayam\nC. Monyet\nD. Ikan\n"};
 
     char *answers[] = {
         "B",
         "A",
         "B",
         "C",
-        "A"};
+        "A",
+        "A",
+        "D",
+        "C",
+        "B",
+        "D"};
     int score = 0;
     int points[] = {
         20,
