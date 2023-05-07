@@ -29,20 +29,26 @@ void play_game()
         "D"};
     int score = 0;
     int points[] = {
-        20,
         10,
-        20,
-        20,
-        30};
+        10,
+        10,
+        15,
+        5,
+        5,
+        5,
+        10,
+        10,
+        10};
 
     printf("Score Anda = %d\n", score);
 
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < 10; i++)
     {
         printf("Pertanyaan %d:\n%s", i + 1, questions[i]);
 
         char answer[2];
-        printf("Masukkan jawaban anda");
+
+        printf("Masukkan jawaban anda:");
         scanf("%s", answer);
         if (strcmp(answer, answers[i]) == 0)
         {
