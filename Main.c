@@ -42,6 +42,7 @@ void play_game()
         printf("Pertanyaan %d:\n%s", i + 1, questions[i]);
 
         char answer[2];
+        printf("Masukkan jawaban anda");
         scanf("%s", answer);
         if (strcmp(answer, answers[i]) == 0)
         {
